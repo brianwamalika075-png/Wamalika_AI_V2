@@ -716,5 +716,8 @@ app.add_handler(CommandHandler("health", health_command))
 app.add_handler(CommandHandler("broadcast", broadcast_command))
 
 print("Wamalika AI Trading Bot Running...")
+print("Starting polling...")
 
 app.run_polling()
+
+print("Polling stopped")
